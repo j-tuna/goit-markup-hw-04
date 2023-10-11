@@ -91,11 +91,16 @@ display: flex;
     text-align: center;
     margin-left: auto;
         margin-right: auto;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
 }
 
     .page-container {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+
     }
 .page-title {
     color: #FFF;
@@ -179,6 +184,7 @@ letter-spacing: 0.02em;
 
 .footer {
     background-color: #2E2F42;
+    display: flex;
 }
 .logo-footer {
     color: #4D5AE5;
@@ -197,10 +203,7 @@ letter-spacing: 0.02em;
 .logo-studio-two {
                     color: #F4F4FD;
                 }
-.footer .text {
-    color: #F4F4FD;
-    width: 264px;
-}
+
 ul {
     list-style-type: none;
 }
@@ -347,4 +350,63 @@ padding: 120px 0 120px 0;
 .page-container {
     margin-left: auto;
     margin-right: auto;
+}
+.li-drie-soc {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(77, 90, 229, 1);
+    border-radius: 50%;
+    display: flex;
+        align-items: center;
+            justify-content: center;
+}
+.li-drie-soc:hover,
+.li-drie-soc:active {
+    background-color: rgba(64, 75, 191, 1);
+}
+.ul-drie-soc {
+    display: flex;
+    gap: 24px;
+        align-items: center;
+            justify-content: center;
+            margin-top: 8px;
+}
+.text-f {
+    color: #F4F4FD;
+    width: 264px;
+}
+
+.flog-cont {
+    width: 264px;
+    display: block;
+   margin-right: 120px;
+}
+.ul-f-soc {
+    display: flex;
+            gap: 24px;
+            margin-top: 16px;
+            margin-left: -20px;
+}
+.li-f-soc {
+        width: 40px;
+            height: 40px;
+            background-color: rgba(77, 90, 229, 1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
+.li-f-soc:hover,
+.li-f-soc:active {
+    background-color: rgba(49, 208, 170, 1);
+}
+.f-text {
+        color: #F4F4FD;
+        display: flex;
+}
+.f-soc-media {
+    display: flex;
+}
+.footer-container {
+    display: flex;
 }
