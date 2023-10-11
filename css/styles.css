@@ -383,9 +383,7 @@ padding: 120px 0 120px 0;
 }
 .ul-f-soc {
     display: flex;
-            gap: 24px;
-            margin-top: 16px;
-            margin-left: -20px;
+            gap: 16px;
 }
 .li-f-soc {
         width: 40px;
@@ -403,10 +401,13 @@ padding: 120px 0 120px 0;
 .f-text {
         color: #F4F4FD;
         display: flex;
+        font-weight: 500;
+        margin-bottom: 16px;
 }
 .f-soc-media {
     display: flex;
 }
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
