@@ -45,6 +45,7 @@ color: #434455;
         letter-spacing: 0.32px; 
         text-decoration: none;
         padding: 24px 0;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-header:active {
     color: #404bbf;
@@ -83,16 +84,10 @@ display: flex;
     display: flex;
     gap: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+        color: #404bbf;
 }
-.menu-li:active::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    border-radius: 4px;
-    background-color: #404bbf;
-}
+
 .menu-li:first-child {
     position: relative;
     color: #404bbf;
@@ -282,6 +277,7 @@ main {
 .list-header {
     display: flex;
 gap: 40px;
+
 }
 .page-header {
     padding: 188px 0;
@@ -455,4 +451,22 @@ padding: 120px 0 120px 0;
 }
 .drie-soc-icon {
     fill: #f4f4fd;
+}
+.menu-li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+}
+.link-header::after {
+    content: "";
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: #404bbf;
 }
