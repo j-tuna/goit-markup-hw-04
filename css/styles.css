@@ -401,6 +401,11 @@ padding: 120px 0 120px 0;
             justify-content: center;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
+.drie-link:hover,
+.drie-link:active,
+.drie-link:focus {
+    background-color: #404bbf;
+}
 .li-f-soc:hover,
 .li-f-soc:active {
     background-color: rgba(49, 208, 170, 1);
@@ -430,4 +435,7 @@ padding: 120px 0 120px 0;
     border-style: solid;
     width: 64px;
     height: 64px;
+}
+.drie-soc-ikon {
+    fill: #f4f4fd;
 }
