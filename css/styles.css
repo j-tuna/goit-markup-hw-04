@@ -169,6 +169,9 @@ letter-spacing: 0.02em;
 .section-drie {
     background-color: #F4F4FD;
     padding: 120px 0;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 .sec-ti-drie {
     margin-bottom: 72px;
@@ -388,7 +391,7 @@ padding: 120px 0 120px 0;
     display: flex;
             gap: 16px;
 }
-.li-f-soc {
+.drie-link {
         width: 40px;
             height: 40px;
             background-color: rgba(77, 90, 229, 1);
@@ -396,6 +399,7 @@ padding: 120px 0 120px 0;
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .li-f-soc:hover,
 .li-f-soc:active {
@@ -424,4 +428,6 @@ padding: 120px 0 120px 0;
     margin-bottom: 8px;
     border-color: rgba(142, 143, 153, 1);
     border-style: solid;
+    width: 64px;
+    height: 64px;
 }
