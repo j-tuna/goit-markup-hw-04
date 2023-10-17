@@ -37,7 +37,7 @@ color: #434455;
         margin-right: 76px;
 }
 
-.list-header .link-header {
+.link-header {
         color: #2e2f42;
         font-size: 16px;
         font-weight: 500;
@@ -453,7 +453,7 @@ padding: 120px 0 120px 0;
     fill: #f4f4fd;
 }
 
-.ml-one::after {
+.list-header .ml-one::after {
     content: "";
         position: absolute;
         left: 0;
@@ -461,6 +461,7 @@ padding: 120px 0 120px 0;
         height: 4px;
         border-radius: 2px;
         background-color: #404bbf;
+        width:100%;
 }
 .link-one {
     position: relative;
