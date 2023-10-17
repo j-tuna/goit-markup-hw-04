@@ -452,16 +452,8 @@ padding: 120px 0 120px 0;
 .drie-soc-icon {
     fill: #f4f4fd;
 }
-.menu-li::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #404bbf;
-}
-.link-header::after {
+
+.ml-one::after {
     content: "";
         position: absolute;
         left: 0;
@@ -469,4 +461,8 @@ padding: 120px 0 120px 0;
         height: 4px;
         border-radius: 2px;
         background-color: #404bbf;
+}
+.link-one {
+    position: relative;
+    color: #404bbf;
 }
