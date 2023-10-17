@@ -485,7 +485,7 @@ padding: 120px 0 120px 0;
         background-color: #404bbf;
         width: 100%;
 }
-.menu-li {
+/* .menu-li {
     content: "";
         position: absolute;
         left: 0;
@@ -494,8 +494,18 @@ padding: 120px 0 120px 0;
         border-radius: 2px;
         background-color: #404bbf;
         width: 100%;
-}
+} */
 .ul-caracter svg {
     width: 64px;
     height: 64px;
+}
+.ml-one::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    width: 100%;
 }
