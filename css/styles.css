@@ -451,41 +451,10 @@ padding: 120px 0 120px 0;
     fill: #f4f4fd;
 }
 
-.list-header .ml-one::after {
-    content: "";
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        height: 4px;
-        border-radius: 2px;
-        background-color: #404bbf;
-        width:100%;
-}
 .link-one {
     position: relative;
     color: #404bbf;
 }
-.list-header:active::after {
-    content: "";
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        height: 4px;
-        border-radius: 2px;
-        background-color: #404bbf;
-        width: 100%;
-}
-.list-header:first-child::after {
-    content: "";
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        height: 4px;
-        border-radius: 2px;
-        background-color: #404bbf;
-        width: 100%;
-}
-
 .ul-caracter svg {
     width: 64px;
     height: 64px;
