@@ -463,7 +463,7 @@ padding: 120px 0 120px 0;
     position: relative;
     color: #404BBF;
 }
-.current::after {
+.menu-li .current::after {
     content: "";
     position: absolute;
     left: 0;
