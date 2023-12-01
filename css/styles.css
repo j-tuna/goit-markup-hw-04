@@ -434,6 +434,8 @@ padding: 120px 0 120px 0;
 .li-f-soc {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .afooter {
     width: 100%;
@@ -443,7 +445,7 @@ padding: 120px 0 120px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .afooter:hover,
 .afooter:focus {
