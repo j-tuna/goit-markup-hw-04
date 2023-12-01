@@ -459,11 +459,15 @@ padding: 120px 0 120px 0;
     width: 64px;
     height: 64px;
 }
+.menu-li {
+    padding: 24px 0px;
+    display: block;
+}
 .current {
     position: relative;
     color: #404BBF;
 }
-.menu-li .current::after {
+.list-header .current::after {
     content: "";
     position: absolute;
     left: 0;
